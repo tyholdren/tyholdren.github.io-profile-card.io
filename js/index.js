@@ -65,6 +65,7 @@ class ProfileCard {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  console.log('dom is loaded');
   const profileCard = new ProfileCard();
   profileCard.initialize();
 });
